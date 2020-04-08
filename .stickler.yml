@@ -1,6 +1,6 @@
 linters:
   flake8:
-    max-line-length: 72
+    config: .flake8
   shellcheck:
     shell: bash
   remarklint:
