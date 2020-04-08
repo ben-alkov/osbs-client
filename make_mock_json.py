@@ -20,7 +20,7 @@ from textwrap import dedent
 
 from osbs import set_logging
 from osbs.api import OSBS
-from osbs.conf import Configuration
+# from osbs.conf import Configuration
 from osbs.constants import DEFAULT_CONFIGURATION_FILE, DEFAULT_ARRANGEMENT_VERSION
 from tests.constants import (TEST_BUILD, TEST_IMAGESTREAM, TEST_ORCHESTRATOR_BUILD,
                              TEST_CANCELLED_BUILD)
