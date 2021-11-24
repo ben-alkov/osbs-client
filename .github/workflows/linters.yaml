@@ -88,3 +88,16 @@ jobs:
 
       - name: Run ShellCheck
         uses: containerbuildsystem/actions/shellcheck@master
+
+  mypy:
+    name: mypy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+
+      - name: Run mypy
+        uses: ben-alkov/actions/mypy@add-mypy
+        with:
+          package: 'osbs'
